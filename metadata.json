@@ -1,6 +1,6 @@
 {
-  "name": "Neon Racer",
-  "description": "High-speed arcade car racing game with dodging mechanics and neon aesthetics.",
+  "name": "Neon Express",
+  "description": "High-octane first-person train simulation and racing game.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
