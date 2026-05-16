@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700;900&family=Inter:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-cyan-neon: #00c3ff;
+  --color-red-neon: #ff3232;
+  --color-bg-deep: #0a0a0c;
+}
+
+@utility hud-glass {
+  background: rgba(15, 20, 30, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 195, 255, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 195, 255, 0.1);
+}
+
+@utility neon-text {
+  text-shadow: 0 0 8px rgba(0, 195, 255, 0.8);
+}
+
+@utility neon-red-text {
+  text-shadow: 0 0 8px rgba(255, 50, 50, 0.8);
+}
